@@ -18,7 +18,7 @@ def using_shift(array) #correct
   array.shift 
 end 
 
-def shift_with_args(array)
+def shift_with_args(array) #correct
   array.shift(2)
 end 
 
@@ -27,7 +27,7 @@ def using_concat(arr1, arr2) #correct
 end
 
 def using_insert(array, element)
-  array.insert(element)
+  array.insert(4,element)
 end
 
 def using_uniq(array) #correct
