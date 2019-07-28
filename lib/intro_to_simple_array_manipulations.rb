@@ -30,15 +30,15 @@ def using_insert(array, element)
   array.insert(element)
 end
 
-def using_uniq(array)
+def using_uniq(array) #correct
   array.uniq
 end  
 
-def using_flatten(array)
+def using_flatten(array) #correct
   array.flatten 
 end
 
-def using_delete(array, element)
+def using_delete(array, element) #correct
   array.delete(element)
 end
 
