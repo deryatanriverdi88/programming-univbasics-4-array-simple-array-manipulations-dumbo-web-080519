@@ -9,3 +9,20 @@ end
 def using_pop(array)
   array.pop 
 end
+
+def pop_with_args(array)
+  
+end
+
+def using_shift(array)
+  array.shift 
+end 
+
+def shift_with_arg(array)
+  
+end 
+
+def using_concat(arr1, arr2)
+  arr1.concat(arr2)
+end
+  
